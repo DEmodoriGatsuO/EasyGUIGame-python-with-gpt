@@ -1,4 +1,2 @@
-*.exe               # 特定の拡張子（今回は.exe）を含むファイルを指定する。
-venv/               
-!needfile.txt       
-package/**/*.txt    # フォルダ内の特定拡張（今回はpackageフォルダ内の.txt拡張子）子を指定する。
+venv/
+openai_code_sample.py

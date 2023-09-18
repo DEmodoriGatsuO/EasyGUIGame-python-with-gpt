@@ -1,8 +1,15 @@
+# -----------------------------------------------------------------------------
+# Script Name: ShiritoriMaster_PyQt5.py
+# Description: Japanese Siritori With GPT
+# Author: ChatGPT with De'modori Gatsuo
+# Created Date: 2023.09.18
+# -----------------------------------------------------------------------------
 import os
 import openai
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QTextEdit, QLineEdit, QPushButton
 
+# global variant
 openai.api_type = "azure"
 openai.api_base = os.getenv("OPENAI_API_BASE")
 openai.api_version = "2023-07-01-preview"
